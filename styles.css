@@ -1,0 +1,22 @@
+h1 {
+    color: white;
+    background-color: green;
+    padding: 10px;
+}
+
+em {
+    color: blue;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+}
+
+strong {
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
