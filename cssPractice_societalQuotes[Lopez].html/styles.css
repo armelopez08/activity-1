@@ -1,0 +1,47 @@
+.Armel{
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to all possible heading elements */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+/* Define class selector rules */
+.bold-strike {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.gray-background {
+    background-color: gray;
+}
+
+/* Define class selector rules for specific spans */
+.silver-text {
+    color: hsl(0, 0%, 75%); /* Silver - HSL value */
+}
+
+.fuchsia-text {
+    color: #ff00ff; /* Fuchsia - Hexadecimal RGB value */
+}
+
+.orange-text {
+    color: rgb(255, 165, 0); /* Bright Orange - Integer RGB value */
+}
+
+/* Style the newspaper title */
+#newspaper-title {
+    text-align: right;
+    font-style: unset;
+}
+
+/* Style the gray hr */
+.gray-hr {
+    border: 30px solid gray;
+}
+}
