@@ -1,0 +1,27 @@
+/* Armelopez */
+body {
+    background-color: cyan;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 75%); /* HSL value for silver */
+}
+
+h2 {
+    color: #ff00ff; /* Hexadecimal RGB value for fuchsia */
+}
+
+article {
+    background-color: rgb(255, 165, 0); /* Integer RGB value for bright orange */
+    padding: 10px;
+    margin: 10px;
+}
