@@ -1,0 +1,31 @@
+/* Armelopez */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ff5733; /* Change to your favorite color */
+    display: inline-block;
+    margin: 0 auto;
+    border: 2px dotted black;
+}
+
+#box1 {
+    background-color: #33ff57; /* Opposite of your favorite color */
+}
+
+#box2 {
+    text-align: right;
+    background-color: #000; /* Complementary color for black */
+}
+
+#box4 {
+    border: 3px dashed green;
+}
+
+#box5 span {
+    font-size: 24px;
+}
+
+#box6,
+#box7 {
+    background-color: #3366ff; /* A color not used in previous formats */
+}
