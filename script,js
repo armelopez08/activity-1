@@ -1,0 +1,38 @@
+class Person{
+    constructor (name, age){
+        this.name = name
+        this.age = age
+    }
+}
+let newPerson = new Person ("bob", 40)
+    console.log(newPerson);
+
+
+
+
+
+class Person{
+    constructor (name, age, country){
+        this.name = name
+        this.age = age
+        this.country = country
+    }
+}
+let newPerson = new Person ("armel", 22, "monggolia")
+    console.log(newPerson);
+
+
+
+
+
+class Rectangle{
+    constructor (width, length){
+        this.width = width
+        this.length = length
+    }
+    calculatePerimeter() {
+        return 2 * (this.width + this.length);
+    }
+}
+let calculation = new Rectangle (11, 3)
+    console.log(calculation.calculatePerimeter());
