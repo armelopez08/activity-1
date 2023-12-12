@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armel Lim Lopez - Portfolio</title>
+    <meta name="User" author="Armel Lim Lopez">
+    <link rel="stylesheet" type="text/css" href="lopez.css">
+</head>
+<body>
+    <header>
+        <h1>Armel Lim Lopez</h1>
+        <p>Best of All Best of the Best Programmer</p>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showSection('goals')">Goals</a>
+        <a href="#" onclick="showSection('achievements')">Achievements</a>
+        <a href="#" onclick="showContactForm()">Contact</a>
+    </nav>
+
+    <section id="goals" class="container">
+        <h2>About Me</h2>
+        <p>
+            I am an excellent team worker and am able to take instructions from all levels and build up good working relationships with all colleagues. I am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a hard-working and driven individual who isn't afraid to face a challenge. I'm passionate about my work and I know how to get the job done. I would describe myself as an open and honest person who doesn't believe in misleading other people and tries to be fair in everything I do.  
+        </p>
+
+        <h2>Goals</h2>
+        <p>
+            My goal is to contribute my skills and knowledge to a dynamic and forward-thinking company like this company. I aim to be a valuable team member and continuously grow as a professional in the ever-evolving field of technology.
+        </p>
+    </section>
+
+    <section id="achievements" class="container">
+        <h2>Achievements</h2>
+        <ul class="achievements">
+            <li>Completed a major project that increased efficiency by 30%.</li>
+            <li>Received the "Innovator of the Year" award in my previous position.</li>
+            <li>Published a technical article on a leading tech blog.</li>
+            <li> Maximize profits.</li>
+            <li>Increase revenue.</li>
+            <li>Launch new products.</li>
+            <li>Improve customer service.</li>
+            <li>Increase management efficiency</li>.
+        </ul>
+
+        <h2>Aspirations</h2>
+        <p>
+            My career aspirations are centered around constant growth and skill enhancement. I am committed to staying updated with the latest trends and technologies in the industry. In the coming year, I plan to pursue specialized certifications and attend industry conferences to learn from experts. I aspire to contribute to cutting-edge projects at this company, leveraging my skills in full-stack development and staying at the forefront of technological advancements. My long-term goal is to make a positive impact on the tech industry and society as a whole.
+        </p>
+    </section>
+
+    <div id="contact-form">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" required>
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <input type="message" id="message" name="message" required>
+
+        <button onclick="submitForm()">Submit</button>
+    </div>
+
+        <script src="lopez.js"></script>
+    <footer>
+        <p>Contact me at: armellopez848@gmail.com | 0970-372-1384 | GitHub: github.com/armellopez</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        function showContactForm() {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            document.getElementById('contact-form').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
